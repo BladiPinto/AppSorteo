@@ -1,0 +1,164 @@
+/* Estilos generales */
+header {
+    background: linear-gradient(45deg, #000000, #333333);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+  .texto h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .texto h2 {
+    font-size: 22px;
+    margin: 0;
+  }
+  
+  .contenedor {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fef9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #555;
+    text-shadow: 2px 2px #ddd;
+  }
+  
+  form {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  input[type="file"] {
+    margin-left: 20px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #ddd;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  label {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input[type="number"] {
+    margin-left: 20px;
+    width: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    box-shadow: 1px 1px 5px #ddd;
+    border-radius: 4px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tbody {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  p {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+  }
+  /* Animaciones */
+  @keyframes slide-in-left {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Estilos específicos para los elementos */
+  #xlsxFile {
+    animation: slide-in-left 0.5s ease-in-out;
+  }
+  
+  #numGanadores {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  button {
+    animation: slide-in-left 1.5s ease-in-out;
+  }
+  
+  table {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
